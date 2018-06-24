@@ -1,0 +1,17 @@
+{
+  "name": "cupassist-auto-register-match-result",
+  "version": "1.0.0",
+  "description": "signup result in TX automaticly based on score in beachvolleyball-scoreboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sindre Øye Svendby",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "2.35",
+    "dotenv": "6.0.0",
+    "firebase": "5.1.0",
+    "nwrun": "0.4.0"
+  }
+}

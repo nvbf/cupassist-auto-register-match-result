@@ -1,0 +1,1 @@
+while true; do node run-register-torunament.js; done

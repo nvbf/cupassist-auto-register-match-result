@@ -1,0 +1,26 @@
+{
+  "src_folders": ["."],
+  "silent": true,
+  "globals_path": "chromedriver",
+  "selenium": {
+    "start_process": false,
+    "cli_args": {
+      "webdriver.chrome.driver": "node_modules/.bin/chromedriver"
+    }
+  },
+  "test_settings": {
+    "default": {
+      "selenium_port": 9515,
+      "selenium_host": "localhost",
+      "default_path_prefix": "",
+      "silent": true,
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+          "args": ["--no-sandbox"]
+        },
+        "acceptSslCerts": true
+      }
+    }
+  }
+}
